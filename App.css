@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  color: white; /* Set default text color to white */
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important; /* Override Bootstrap styles */
+}
+
+.form-control,
+.btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white; /* Ensure form controls and buttons are styled appropriately */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+  color: white;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.card .btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+input::placeholder {
+  color: #ccc; /* Lighter color for placeholder text */
+}
